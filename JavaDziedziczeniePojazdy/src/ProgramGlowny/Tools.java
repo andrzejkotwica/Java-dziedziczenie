@@ -1,10 +1,14 @@
 package ProgramGlowny;
 
 public class Tools {
-String Nr_rej;
-String marka;
-String model;
-int rokProdukcji;
 
 
+
+    public  void printer (Pojazd pojazd)
+    {
+        System.out.println("Numer rejestracyjny:" + pojazd.getNumerejestracyjny());
+        System.out.println("Marka: " + pojazd.getMarka());
+        System.out.println("Model: " + pojazd.getModel());
+        System.out.println("Rok produkcji:  " + pojazd.getRokProdukcji());
+    }
 }
